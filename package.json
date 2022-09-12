@@ -1,0 +1,29 @@
+{
+    "name": "backend-server-node",
+    "version": "1.0.0",
+    "description": "backend stocker",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Grupo Stocker - Figueras, Galarza, Gutierrez... 2020",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "bcryptjs": "^2.4.3",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.6",
+        "mongoose-unique-validator": "^2.0.3",
+        "morgan": "^1.10.0",
+        "nodemailer": "^6.4.11",
+        "nodemon": "^2.0.19",
+        "react-scripts": "^3.4.0",
+        "serve-index": "^1.9.1",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.3.0",
+        "typescript": "^3.8.3"
+    }
+}
